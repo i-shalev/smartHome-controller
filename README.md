@@ -1,6 +1,6 @@
-הוראות להפעלת הסימולציה:
-1. פתחו באקליפס את תיקיית הפרויקט  ע"י  File -> Open project from file system.
-יש לוודא כי התיקייה שמייבאים היא מכילה ישירות את כל התיקיות דוגמאת spec, src וכו' ולא מכילה תיקייה שמכילה אותם.
-2. בתוך תיקיית src תחת smartHome ישנו קובץ ג'אווה בשם smartHome.java, על מנת להפעיל את הסימולציה יש לפתוח אותו וללחוץ על כפתור הrun.
-יפתח חלון ובו הסימולציה. מהחלון ניתן לצפות בסימולציה אקראית, לבחור השמות למשתני הסביבה ולהפעיל את התרחישים ממסמך הדרישות.
-חשוב לזכור לייצר symbolic controller מתוך קובץ הספקטרה לפני שמפעילים את הסימולציה.
+Instructions for running the simulation:
+1. Open Eclipse project folder by File -> Open project from file system.
+Make sure that the folder that import directly contains all the folders such as spec, src, etc. and does not contain a folder that contains them.
+2. Within the src folder under smartHome, there is a java file called smartHome.java, in order to run the simulation, open it and press the run button.
+A window will open containing the simulation. From the window you can view a random simulation, select the input fot the environment variables and run the scenarios from the requirements document.
+It is important to remember to produce symbolic controller from the spectra file before running the simulation.
